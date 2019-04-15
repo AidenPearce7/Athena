@@ -5,42 +5,18 @@ body {
     justify-content: center;
     align-items: center;
 }
-.isLoggedIn{
-    justify-content: right;
-    align-self: baseline;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,auto);
-    width: 100px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    text-align: center;
-}
-#LoginIndicator{
-    grid-column: 1/3;
-}
-#Logout{
-    grid-column: 1/3;
-}
-
-.LoginContainer{
-    display: grid;
-    width: 500px;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    gap: 1rem;
+h1 {
     text-align: center;
 }
 .container{
     display: grid;
     width: 850px;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 100px repeat(2,150px) 100px;
+    grid-template-rows: auto;
     gap: 1rem;
     text-align: center;
 }
-.footer,.header{
+.fullRow,.commandDescription{
     grid-column: 1/5;
 }
 .sidebar{
